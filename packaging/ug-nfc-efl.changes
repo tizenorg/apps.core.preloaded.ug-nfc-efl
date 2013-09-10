@@ -1,0 +1,30 @@
+* Tue Sep 10 2013 Maciej Wereski <m.wereski@partner.samsung.com> accepted/tizen/20130530.164518@535d53e
+- Fix RPMLINT errors
+- Update smack file
+- Update license file
+- Remove duplicated lincese files
+- Update license file
+- Update license file
+- Change License date
+- Merge Tizen_2.1 from Private
+- Merge RSA from Private
+- merge with master
+- Tizen 2.1 base
+- Change License name in spec file
+- Modify License File
+- Fix License URL
+- Add NOTICE, AUTHOR file and modify boilerplate
+- upload package
+- code update
+- Modify the log message
+- code update
+- remove mdm exception
+- sync RSA
+- add manifest
+-  - Apply appsvc changes.
+- remove S BEAM setting
+- Fix build error
+- Update the latest source
+- apply FSL(Flora Software License)
+- Initial empty repository
+
