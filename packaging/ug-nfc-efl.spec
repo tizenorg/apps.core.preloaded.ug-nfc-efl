@@ -6,7 +6,7 @@ Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
 Version:    0.0.8
 Release:    0
-Group:      TO_BE/FILLED_IN
+Group:      Network & Connectivity/NFC
 License:    Flora Software License
 Source0:    %{name}-%{version}.tar.gz
 Source1:    libug-setting-nfc-efl.install.in
@@ -37,7 +37,7 @@ UI gadget about the nfc
 %setup -q
 
 %package devel
-Summary:  ug for nfc setting
+Summary:  UG for nfc setting
 Group:    Development/Libraries
 Requires: %{name} = %{version}-%{release}
 
@@ -45,9 +45,10 @@ Requires: %{name} = %{version}-%{release}
 ug for nfc setting
 
 %package -n ug-share-nfc-efl
-Summary:  ug for nfc share
+Summary:  UG for nfc share
 Group:    Development/Libraries
 Requires(post): /sbin/ldconfig
+Requires(postun): /sbin/ldconfig
 Requires(post): /usr/bin/vconftool
 Requires: %{name} = %{version}-%{release}
 
@@ -73,11 +74,13 @@ mkdir -p %{buildroot}/etc/config/nfc/
 cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-nfc-efl
 cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-share-nfc-efl
 
-%post
+%post -p /sbin/ldconfig
 
-%post -n ug-share-nfc-efl
+%postun -p /sbin/ldconfig
 
-%postun
+%post -n ug-share-nfc-efl -p /sbin/ldconfig
+
+%postun -n ug-share-nfc-efl -p /sbin/ldconfig
 
 %files
 %manifest ug-nfc-efl.manifest
