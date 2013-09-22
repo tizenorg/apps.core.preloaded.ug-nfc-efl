@@ -27,7 +27,6 @@ BuildRequires:  edje-tools
 BuildRequires:  gettext-tools
 
 Requires(post): /sbin/ldconfig
-Requires(post): /usr/bin/vconftool
 Requires(postun): /sbin/ldconfig
 
 %description
@@ -47,9 +46,6 @@ ug for nfc setting
 %package -n ug-share-nfc-efl
 Summary:  UG for nfc share
 Group:    Development/Libraries
-Requires(post): /sbin/ldconfig
-Requires(postun): /sbin/ldconfig
-Requires(post): /usr/bin/vconftool
 Requires: %{name} = %{version}-%{release}
 
 %description -n ug-share-nfc-efl
@@ -69,10 +65,7 @@ cd cmake_tmp
 rm -rf %{buildroot}
 %make_install
 cd ..
-mkdir -p %{buildroot}/usr/share/license
 mkdir -p %{buildroot}/etc/config/nfc/
-cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-nfc-efl
-cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-share-nfc-efl
 
 %post -p /sbin/ldconfig
 
@@ -89,7 +82,7 @@ cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-share-nfc-efl
 /usr/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*
 /usr/ug/res/icons/*
 /etc/smack/accesses2.d/ug.setting-nfc-efl.include
-/usr/share/license/ug-nfc-efl
+%license LICENSE.Flora
 
 %files -n ug-share-nfc-efl
 %manifest ug-nfc-efl.manifest
@@ -98,6 +91,6 @@ cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-share-nfc-efl
 /usr/ug/res/locale/*/LC_MESSAGES/ug-share-nfc-efl*
 /usr/ug/res/images/*
 /usr/ug/res/edje/*
-/usr/share/license/ug-share-nfc-efl
 /etc/smack/accesses2.d/ug.share-nfc-efl.include
 /etc/config/nfc/*
+%license LICENSE.Flora
