@@ -1,0 +1,8 @@
+Code-Review+1: Patrick McCarty <patrick.mccarty@linux.intel.com>
+Code-Review+2: Anas Nashif <anas.nashif@intel.com>
+Verified+1: Anas Nashif <anas.nashif@intel.com>
+Submitted-by: Anas Nashif <anas.nashif@intel.com>
+Submitted-at: Mon, 23 Sep 2013 14:17:12 -0700
+Reviewed-on: https://review.tizen.org/gerrit/10081
+Project: apps/core/preloaded/ug-nfc-efl
+Branch: refs/heads/tizen
