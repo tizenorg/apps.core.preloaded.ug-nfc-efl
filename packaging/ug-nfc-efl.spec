@@ -22,10 +22,12 @@ BuildRequires:  pkgconfig(capi-network-nfc)
 BuildRequires:  pkgconfig(capi-content-mime-type)
 BuildRequires:  pkgconfig(sqlite3)
 
+BuildRequires:  pkgconfig(libtzplatform-config)
 BuildRequires:  cmake
 BuildRequires:  edje-tools
 BuildRequires:  gettext-tools
 
+BuildRequires:  libX11-devel
 
 %description
 UI gadget about the nfc

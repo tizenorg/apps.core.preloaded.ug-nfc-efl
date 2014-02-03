@@ -41,6 +41,7 @@ vconf
 capi-appfw-application
 capi-network-nfc
 sqlite3
+libtzplatform-config
 )
 
 FOREACH(flag ${pkgs_ug_nfc_setting_CFLAGS})
