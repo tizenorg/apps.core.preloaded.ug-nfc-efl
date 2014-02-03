@@ -32,13 +32,14 @@ extern "C" {
 #include <dlog.h>
 #include <vconf.h>
 #include <nfc.h>
+#include <tzplatform_config.h>
 
 #define LOCALE_PATH		LOCALEDIR
 #define EDJ_PATH 		EDJDIR
 #define EDJ_FILE			EDJ_PATH"/"PACKAGE".edj"
 
-#define PREDEFINED_ITEM_FILE_PATH		"/usr/apps/org.tizen.57r43275q7/share"
 
+#define PREDEFINED_ITEM_FILE_PATH       tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.57r43275q7/share")
 #ifdef LOG_TAG
 #undef LOG_TAG
 #endif
