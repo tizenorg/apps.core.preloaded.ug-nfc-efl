@@ -21,6 +21,7 @@ BuildRequires:  pkgconfig(capi-appfw-application)
 BuildRequires:  pkgconfig(capi-network-nfc)
 BuildRequires:  pkgconfig(capi-content-mime-type)
 BuildRequires:  pkgconfig(sqlite3)
+BuildRequires:  pkgconfig(x11)
 
 BuildRequires:  cmake
 BuildRequires:  edje-tools
