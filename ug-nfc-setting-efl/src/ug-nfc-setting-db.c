@@ -17,9 +17,10 @@
 
 #include "ug-nfc-setting-main.h"
 #include "ug-nfc-setting-db.h"
+#include <tzplatform_config.h>
 
 
-#define DB_FILE_PATH			"/opt/usr/dbspace/.net-nfcpush.db"
+#define DB_FILE_PATH			tzplatform_mkpath(TZ_USER_DB, ".net-nfcpush.db")
 #define DB_TABLE_NAME			"NfcPushMsgTable"
 
 /* sqlite> .schema 		*/
