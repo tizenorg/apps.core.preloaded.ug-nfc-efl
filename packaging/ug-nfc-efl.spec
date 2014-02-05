@@ -23,6 +23,7 @@ BuildRequires:  pkgconfig(capi-content-mime-type)
 BuildRequires:  pkgconfig(sqlite3)
 BuildRequires:  pkgconfig(x11)
 
+BuildRequires:  pkgconfig(libtzplatform-config)
 BuildRequires:  cmake
 BuildRequires:  edje-tools
 BuildRequires:  gettext-tools
