@@ -350,7 +350,7 @@ static void _setting_on_YesNo_popup(void *data)
 
 	memcpy(popup_str, IDS_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q, strlen(IDS_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q));
 
-	ug_nfc_share_create_popup(ug_data, ug_data->base_layout, popup_str, IDS_YES, UG_NFC_POPUP_RESP_OK, IDS_NO, UG_NFC_POPUP_RESP_CANCEL, NULL, 0, false, false, _setting_on_YesNo_popup_response_cb);
+	ug_nfc_share_create_popup(ug_data, ug_data->base_layout, popup_str, IDS_NO, UG_NFC_POPUP_RESP_CANCEL, IDS_YES, UG_NFC_POPUP_RESP_OK, NULL, 0, false, false, _setting_on_YesNo_popup_response_cb);
 
 	UG_NFC_SHARE_END();
 }
@@ -795,6 +795,13 @@ static void __ug_nfc_share_destroy(ui_gadget_h ug, service_h service, void *priv
 
 	if (ug_data == NULL)
 		return;
+
+	if (ug_data->current_ndef)
+	{
+		if (nfc_ndef_message_destroy(ug_data->current_ndef) != NFC_ERROR_NONE)
+			UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_message_destroy failed");
+		ug_data->current_ndef = NULL;
+	}
 
 	/* unset callback */
 	ug_nfc_unset_nfc_callback();
