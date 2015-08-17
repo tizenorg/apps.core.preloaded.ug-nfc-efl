@@ -15,12 +15,12 @@ ADD_DEFINITIONS("-DPACKAGE=\"ug-setting-nfc-efl\"")
 ADD_DEFINITIONS("-DPREFIX=\"${PREFIX}\"")
 ADD_DEFINITIONS("-DLOCALEDIR=\"${LOCALEDIR}\"")
 ADD_DEFINITIONS("-DEDJDIR=\"${EDJDIR}\"")
+ADD_DEFINITIONS("-DICONDIR=\"${ICONDIR}\"")
 
 SET(SRCS
 src/ug-nfc-setting-main.c
-src/ug-nfc-setting-predefined-item.c
+src/ug-nfc-setting-secure-storage.c
 src/ug-nfc-setting-popup.c
-src/ug-nfc-setting-db.c
 )
 
 IF("${CMAKE_BUILD_TYPE}" STREQUAL "")
@@ -32,16 +32,17 @@ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 INCLUDE(FindPkgConfig)
 pkg_check_modules(pkgs_ug_nfc_setting REQUIRED
-ecore-x
 ecore-evas
 elementary
+efl-assist
 ui-gadget-1
 dlog
 vconf
 capi-appfw-application
 capi-network-nfc
+capi-appfw-app-manager
 sqlite3
-libtzplatform-config
+notification
 )
 
 FOREACH(flag ${pkgs_ug_nfc_setting_CFLAGS})
@@ -65,6 +66,7 @@ SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
 ADD_DEFINITIONS("-DPREFIX=\"${CMAKE_INSTALL_PREFIX}\"")
 ADD_DEFINITIONS("-DEDJDIR=\"${EDJDIR}\"")
 ADD_DEFINITIONS("-DRESDIR=\"${RESDIR}\"")
+ADD_DEFINITIONS("-D_SBEAM_SUPPORT_")
 
 ADD_LIBRARY(${PROJECT_NAME} SHARED ${SRCS})
 SET_TARGET_PROPERTIES(${PROJECT_NAME} PROPERTIES SOVERSION 0.1.0)
@@ -81,9 +83,6 @@ INSTALL(TARGETS ${PROJECT_NAME} DESTINATION ${LIBDIR})
 INSTALL(FILES ${CMAKE_BINARY_DIR}/ug-setting-nfc-efl.edj DESTINATION ${EDJDIR})
 
 INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/icons/setting-nfc.png DESTINATION ${ICONDIR})
-
-# install smack file
-INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/ug.setting-nfc-efl.include DESTINATION /etc/smack/accesses2.d)
 
 # install xml file
 INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/sysinfo-nfc-ug.xml DESTINATION /etc/config/nfc/)
