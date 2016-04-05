@@ -1,5 +1,5 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 0.1)
-PROJECT(ug-setting-nfc-efl C)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+PROJECT(ug-nfc-efl C)
 
 SET(POFILES
 ar.po az.po bg.po ca.po cs.po da.po de.po el_GR.po en.po en_PH.po en_US.po es_ES.po

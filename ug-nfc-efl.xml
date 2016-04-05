@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="ug-nfc-efl" api-version="3.0" version="3.0.0" install-location="internal-only">
+	<label>NFC Setting</label>
+	<author email="jh8801.jung@samsung.com" href="www.samsung.com">Jihoon Jung</author>
+	<description>NFC Setting</description>
+	<ui-application appid="ug-nfc-efl" exec="/usr/ug/bin/ug-nfc-efl" nodisplay="true" multiple="true" type="capp" taskmanage="false">
+		<label>NFC</label>
+		<icon>/usr/ug/res/icons/ug-nfc-efl/setting-nfc.png</icon>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/setting/nfc"/>
+		</application-service>
+	</ui-application>
+</manifest>
