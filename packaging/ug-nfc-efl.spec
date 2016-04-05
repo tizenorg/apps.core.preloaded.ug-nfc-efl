@@ -11,13 +11,13 @@ ExcludeArch: %{arm} %ix86 x86_64
 
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
-Version:    0.1.0
+Version:    3.0.0
 Release:    0
 Group:      TO_BE/FILLED_IN
 License:    Flora-1.1
 Source0:    %{name}-%{version}.tar.gz
 BuildRequires:  pkgconfig(elementary)
-BuildRequires:  pkgconfig(efl-assist)
+BuildRequires:  pkgconfig(efl-extension)
 BuildRequires:  pkgconfig(ui-gadget-1)
 BuildRequires:  pkgconfig(dlog)
 BuildRequires:  pkgconfig(vconf)
@@ -76,9 +76,9 @@ ln -sf /usr/bin/ug-client /usr/ug/bin/setting-nfc-efl
 
 %files
 %defattr(-,root,root,-)
-/usr/ug/lib/libug-setting-nfc-efl*
-/usr/ug/res/edje/ug-setting-nfc-efl/*.edj
-/usr/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*
+/usr/ug/lib/libug-nfc-efl.*
+/usr/ug/res/edje/ug-nfc-efl/*.edj
+/usr/ug/res/locale/*/LC_MESSAGES/ug-nfc-efl*
 /usr/ug/res/icons/*
-/etc/config/nfc/*
 /usr/share/license/LICENSE
+/usr/share/packages/*
