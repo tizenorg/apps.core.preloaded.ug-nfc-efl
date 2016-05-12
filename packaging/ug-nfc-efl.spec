@@ -1,84 +1,78 @@
-%define _usrdir	/usr
-%define _ugdir	%{_usrdir}/ug
-
-%if "%{?tizen_profile_name}" == "wearable"
-ExcludeArch: %{arm} %ix86 x86_64
-%endif
-
-%if "%{?tizen_profile_name}" == "tv"
-ExcludeArch: %{arm} %ix86 x86_64
-%endif
-
+%if 0
 Name:       ug-nfc-efl
-Summary:    UI gadget about the nfc
-Version:    3.0.0
+Summary:    NFC Setting UI for Mobile profile
+%global PREFIX  /usr/ug
+%endif
+
+%if 1
+Name:       org.tizen.nfc-setting-app
+Summary:    NFC Setting UI for Wearable profile
+%global PREFIX  %{_prefix}/apps/%{name}
+%endif
+
+Version:    3.1.0
 Release:    0
-Group:      TO_BE/FILLED_IN
+Group:      App/Network
 License:    Flora-1.1
 Source0:    %{name}-%{version}.tar.gz
-BuildRequires:  pkgconfig(elementary)
-BuildRequires:  pkgconfig(efl-extension)
+
+%if 0
 BuildRequires:  pkgconfig(ui-gadget-1)
-BuildRequires:  pkgconfig(dlog)
-BuildRequires:  pkgconfig(vconf)
 BuildRequires:  pkgconfig(notification)
-BuildRequires:  pkgconfig(capi-appfw-application)
-BuildRequires:  pkgconfig(capi-network-nfc)
 BuildRequires:  pkgconfig(capi-content-mime-type)
 BuildRequires:  pkgconfig(capi-appfw-app-manager)
 BuildRequires:  pkgconfig(sqlite3)
 BuildRequires:  pkgconfig(notification)
+%endif
 
+%if 1
+BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(pkgmgr-info)
+BuildRequires:  pkgconfig(syspopup)
+%endif
+
+BuildRequires:  pkgconfig(capi-network-nfc)
+BuildRequires:  pkgconfig(capi-appfw-application)
+BuildRequires:  pkgconfig(dlog)
+BuildRequires:  pkgconfig(vconf)
+BuildRequires:  pkgconfig(efl-extension)
+BuildRequires:  pkgconfig(elementary)
 BuildRequires:  cmake
 BuildRequires:  edje-tools
 BuildRequires:  gettext-tools
-
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 
 %description
-UI gadget about the nfc
+NFC Setting UI
 
 %prep
 %setup -q
 
-%package devel
-Summary:  ug for nfc setting
-Group:    Development/Libraries
-Requires: %{name} = %{version}-%{release}
-
-%description devel
-ug for nfc setting
-
 %build
-export CFLAGS="$CFLAGS -DTIZEN_ENGINEER_MODE"
-export CXXFLAGS="$CXXFLAGS -DTIZEN_ENGINEER_MODE"
-export FFLAGS="$FFLAGS -DTIZEN_ENGINEER_MODE"
-mkdir cmake_tmp
-cd cmake_tmp
-cmake .. -DCMAKE_INSTALL_PREFIX=%{_ugdir}
+cmake . -DCMAKE_INSTALL_PREFIX=%{PREFIX} \
+%if 0
+	-DTIZEN_MOBILE=1
+%endif
+%if 1
+	-DTIZEN_WEARABLE=1
+%endif
 
 make %{?jobs:-j%jobs}
 
 %install
-cd cmake_tmp
-rm -rf %{buildroot}
 %make_install
+
 mkdir -p %{buildroot}/usr/share/license
-mkdir -p %{buildroot}/etc/config/nfc/
-cp -af %{_builddir}/%{name}-%{version}/LICENSE %{buildroot}/usr/share/license/
+cp -af %{_builddir}/%{name}-%{version}/LICENSE.Flora %{buildroot}/usr/share/license/
 
 %post
-mkdir -p /usr/ug/bin/
-ln -sf /usr/bin/ug-client /usr/ug/bin/setting-nfc-efl
+/sbin/ldconfig
 
-%postun
+%postun -p /sbin/ldconfig
 
 %files
 %defattr(-,root,root,-)
-/usr/ug/lib/libug-nfc-efl.*
-/usr/ug/res/edje/ug-nfc-efl/*.edj
-/usr/ug/res/locale/*/LC_MESSAGES/ug-nfc-efl*
-/usr/ug/res/icons/*
-/usr/share/license/LICENSE
-/usr/share/packages/*
+%{_datadir}/license/LICENSE.Flora
+%{_datadir}/packages/*
+%{PREFIX}/*

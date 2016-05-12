@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "ແຕະແລະຊຳລະ"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "ບໍ່​ມີ​ແອັບ​ການ​ຊຳ​ລະ​ຖືກ​ຕິດຕັ້ງ"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "ບໍ່ສາມາດເລືອກແອັບການຊຳລະທີ່ມີຫຼາຍກວ່າ 50 ບັດທີ່ຖືກລົງທະບຽນ."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "ໜຶ່ງບັດທີ່ໄດ້ລົງທະບຽນໃນ %1$s ໄດ້ລົງທະບຽນໃນ %2$s ຮຽບຮ້ອຍ. ບັດນີ້ບໍ່ສາມາດຖືກໃຊ້ໃນ %3$s."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "ນະໂຍບາຍດ້ານຄວາມປອດໄພປ້ອງກັນການໃຊ້ NFC."
+

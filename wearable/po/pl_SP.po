@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "Tyknij i zabul"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "Niy ma zainsztal. aplikac. do platu"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "Niy idzie ôbrać aplikacyji do płatu z wiyncyj jak 50 zaregistrowanymi kartami."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "Jedna z kartōw zaregistrowanych w aplikacyji %1$s ôstała przōdzij zaregistrowanŏ w aplikacyji %2$s. Niy idzie używać tyj karty w aplikacyji %3$s."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "Zasady zabezpieczeń uniemożliwiają korzystanie z NFC."
+

@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "ଟ୍ୟାପ୍ କରି ଦେୟ କର."
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "ସଂସ୍ଥାପିତ ଦେୟ ଆପ୍ଲିକେସନ୍‌ ନାହିଁ"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "50ରୁ ଅଧିକ ପଞ୍ଜିକରଣ କାର୍ଡଗୁଡିକ ସହ ଦେୟ ଆପ୍ଲିକେସନ୍‌ ଚୟନ କରିବାକୁ ଅସମର୍ଥ।"
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "%1$sରେ ପଞ୍ଜିକରଣ ହୋଇଥିବା କାର୍ଡଗୁଡିକରୁ ଗୋଟିଏ ପୂର୍ବରୁ %2$sରେ ପଞ୍ଜିକରଣ ହୋଇଛି। %3$sରେ ଏହି କାର୍ଡ୍ ବ୍ୟବହୃତ ହୋଇପାରିବ ନାହିଁ।"
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "ସୁରକ୍ଷା ନୀତି NFCର ବ୍ୟବହାର ପ୍ରତିରୋଧ କରେ।"
+

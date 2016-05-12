@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.nfc-setting-app" version="0.0.2" install-location="internal-only" api-version="2.3.1">
+	<label>NFC Setting</label>
+	<author email="junyong.sim@samsung.com" href="www.samsung.com">Junyong Sim</author>
+	<description>NFC Setting App</description>
+	<ui-application appid="org.tizen.nfc-setting-app" exec="/usr/apps/org.tizen.nfc-setting-app/bin/nfc-setting-app" nodisplay="true" multiple="false" type="capp" taskmanage="false" mainapp="true" process-pool="true" hw-acceleration="use-GL">
+		<label>NFC</label>
+		<app-control>
+			<operation name="http://tizen.org/appcontrol/operation/setting/nfc"/>
+		</app-control>
+	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/nfc</privilege>
+		<privilege>http://tizen.org/privilege/nfc.admin</privilege>
+		<privilege>http://tizen.org/privilege/nfc.cardemulation</privilege>
+	</privileges>
+</manifest>

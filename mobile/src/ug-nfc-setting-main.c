@@ -92,8 +92,6 @@ static bool __reply_to_launch_request(app_control_h service, app_control_result_
 static void __nfc_activation_completed_cb(nfc_error_e error,
 	void *user_data)
 {
-	ugdata_t *ug_data = (ugdata_t *)user_data;
-
 	LOGD("BEGIN >>>>");
 
 	if (error != NFC_ERROR_NONE) {
@@ -431,8 +429,6 @@ static void __ug_nfc_destroy(ui_gadget_h ug, app_control_h service, void *priv)
 
 static void __ug_nfc_start(ui_gadget_h ug, app_control_h service, void *priv)
 {
-	ugdata_t *ug_data = (ugdata_t *)priv;
-
 	LOGD("BEGIN >>>>");
 
 	if (nfc_manager_is_supported() == false) {
@@ -463,7 +459,6 @@ UG_MODULE_API int UG_MODULE_INIT(struct ug_module_ops *ops)
 	ops->start = __ug_nfc_start;
 	ops->destroy = __ug_nfc_destroy;
 	ops->priv = ug_data;
-	ops->opt = UG_OPT_INDICATOR_ENABLE;
 
 	return 0;
 }
