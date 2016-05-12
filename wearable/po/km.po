@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "ប៉ះ និង បង់ប្រាក់"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "មិន​បាន​ដំឡើង​កម្មវិធី​បង់ប្រាក់​ណា​មួយ"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "មិន​អាច​ជ្រើស​កម្មវិធី​បង់ប្រាក់​ជាមួយ​បណ្ណ​ដែល​បាន​ចុះបញ្ជី​លើសពី 50។"
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "បណ្ណ​មួយ​ដែល​បាន​ចុះបញ្ជី​ក្នុង %1$s ត្រូវ​បាន​ចុះបញ្ជី​ហើយ​ក្នុង %2$s។ បណ្ណ​នេះ​មិន​អាច​ប្រើ​បាន​ឡើយ​ក្នុង %3$s។"
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "គោលការណ៍​សន្តិសុខ​រារាំង​ការប្រើ NFC។"
+

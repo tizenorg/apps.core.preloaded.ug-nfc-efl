@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "Ťuknúť a zaplatiť"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "Žiadne inštalov. platobné aplikácie"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "Platobná aplikácia s viac než 50 zaregistrovanými kartami sa nedá vybrať."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "Jedna z kariet zaregistrovaných v aplikácii %1$s už bola zaregistrovaná v aplikácii %2$s. Táto karta sa nedá použiť v aplikácii %3$s."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "Politika zabezpečenia zabraňuje používaniu funkcie NFC."
+

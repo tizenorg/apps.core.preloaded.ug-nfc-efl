@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "Түрту мен төлеу"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "Орнатылған төлем қолданбалары жоқ"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "50-ден көп тіркелген картасы бар төлем қолданбасын таңдау мүмкін емес."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "%1$s қолданбасында тіркелген карталардың бірі %2$s қолданбасында тіркеліп қойған. Бұл картаны %3$s қолданбасында пайдалану мүмкін емес."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "Қауіпсіздік саясаты NFC-ті пайдалануға жол бермейді."
+

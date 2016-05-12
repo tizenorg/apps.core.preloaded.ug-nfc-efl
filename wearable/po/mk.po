@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "Допри и плати"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "Нема инсталирани платежни апликации"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "Не може да се избере апликација за плаќање со повеќе од 50 регистрирани картички."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "Една од картичките, регистрирана во %1$s, веќе е регистрирана во %2$s. Таа не може да се користи во %3$s."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "Политиката за безбедност спречува користење NFC."
+

@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "Chạm và thanh toán"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "Chưa cài đặt ứng dụng thanh toán"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "Không thể chọn ứng dụng thanh toán với nhiều hơn 50 thẻ được đăng ký."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "Một trong số các thẻ được đăng ký trong %1$s đã được đăng ký trong %2$s. Không thể dùng thẻ này trong %3$s."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "Chính sách bảo mật không cho dùng NFC."
+
