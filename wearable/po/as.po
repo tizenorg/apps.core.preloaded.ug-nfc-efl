@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "টিপক আৰু পৰিশোধ"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "ইনষ্টল কৰা কোনো পৰিশোধ এপ্প্‌চ নাই"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "50 খন পঞ্জীকৃত কাৰ্ডতকৈ অধিকৰ সৈতে পৰিশোধ এপ চয়ন কৰাত অক্ষম৷"
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "%1$s-ত পঞ্জীকৃত এখন কাৰ্ড ইতিমধ্যে %2$s-ত পঞ্জীকৃত আছিল৷ এই কাৰ্ড %3$s-ত ব্যৱহাৰ কৰিব নোৱাৰি৷"
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "নিৰাপত্তা নীতিয়ে NFC-ৰ ব্যৱহাৰ প্ৰতিৰোধ কৰে৷"
+

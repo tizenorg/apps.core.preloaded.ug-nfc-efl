@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "තට්ටු කර ගෙවන්න"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "ස්ථාපිත ගෙවීමේ යෙදුම් කිසිවක් නැත"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "50 කට වඩා වැඩි ලියාපදිංචි කළ කාඩ්පත් සමග ගෙවීම් යෙදුම තේරිය නොහැකිය."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "%1$s තුළ ලියාපදිංචිව ඇති කාඩ්පත් වලින් එකක් %2$s තුළ දැනටමත් ලියාපදිංචි වී ඇත. මෙම කාඩ්පත %3$s තුළ භාවිතා කළ නොහැක."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "NFC භාවිතා කිරීම ආරක්ෂණ ප්‍රතිපත්තිය වළකයි."
+

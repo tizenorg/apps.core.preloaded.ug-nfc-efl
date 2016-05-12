@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "ತಟ್ಟಿ ಪಾವತಿಸಿ"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "ಪಾವತಿ ಅನ್ವಯಿಸುವಿಕೆ ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "50ಕ್ಕಿಂತ ಹೆಚ್ಚು ಕಾರ್ಡ್‌ಗಳನ್ನು ನೋಂದಾಯಿಸಲಾಗಿರುವ ಪಾವತಿ ಅನ್ವಯಿಸುವಿಕೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "%1$sನಲ್ಲಿ ನೋಂದಾಯಿಸಲಾಗಿರುವ ಕಾರ್ಡ್‌ಗಳಲ್ಲಿ ಒಂದು ಕಾರ್ಡ್ ಅನ್ನು ಈಗಾಗಲೇ %2$sನಲ್ಲಿ ನೋಂದಾಯಿಸಲಾಗಿದೆ. ಈ ಕಾರ್ಡ್ ಅನ್ನು %3$sನಲ್ಲಿ ನೋಂದಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "ಸುರಕ್ಷತಾ ನೀತಿಯು NFC ಬಳಕೆಯನ್ನು ತಡೆಯುತ್ತದೆ."
+

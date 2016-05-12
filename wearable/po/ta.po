@@ -1,0 +1,18 @@
+msgid "WDS_ST_MBODY_TAP_AND_PAY_ABB"
+msgstr "டேப் செ. செலுத்துக"
+
+msgid "WDS_ST_MBODY_NFC_ABB"
+msgstr "NFC"
+
+msgid "WDS_ST_NPBODY_NO_INSTALLED_PAYMENT_APPS_ABB"
+msgstr "கட்டண பயன்பாடுகள் இல்லை"
+
+msgid "WDS_ST_POP_UNABLE_TO_SELECT_PAYMENT_APP_WITH_MORE_THAN_50_REGISTERED_CARDS"
+msgstr "50-க்கும் மேற்பட்ட பதிவுசெய்த அட்டைகளுடன் பணமளிப்பு பயன்பாட்டை தேர்வுசெய்ய இயலவில்லை."
+
+msgid "WDS_ST_POP_ONE_OF_THE_CARDS_REGISTERED_IN_P1SS_WAS_ALREADY_REGISTERED_IN_P2SS_THIS_CARD_CANNOT_BE_USED_IN_P3SS"
+msgstr "%1$s-இல் பதிவு செய்யப்பட்ட அட்டைகளில் ஒன்று ஏற்கனவே %2$s-இல் பதிவு செய்யப்பட்டுள்ளது. இந்த அட்டையை %3$s-இல் பயன்படுத்த இயலாது."
+
+msgid "WDS_ST_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_NFC_ABB"
+msgstr "NFC பயன்பாட்டைப் பாதுகாப்புக் கொள்கை தடுக்கிறது."
+
