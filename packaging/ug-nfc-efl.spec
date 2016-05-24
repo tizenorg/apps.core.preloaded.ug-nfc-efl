@@ -1,22 +1,24 @@
-%if 0
-Name:       ug-nfc-efl
-Summary:    NFC Setting UI for Mobile profile
+%if "%{?profile}" == "mobile"
 %global PREFIX  /usr/ug
 %endif
 
-%if 1
-Name:       org.tizen.nfc-setting-app
-Summary:    NFC Setting UI for Wearable profile
-%global PREFIX  %{_prefix}/apps/%{name}
+%if "%{?profile}" == "wearable"
+%global PREFIX  %{_prefix}/apps/org.tizen.nfc-setting-app/
 %endif
 
+%if "%{?profile}" == "tv"
+ExcludeArch: %{arm} %ix86 x86_64
+%endif
+
+Name:       ug-nfc-efl
+Summary:    NFC Setting UI
 Version:    3.1.0
 Release:    0
 Group:      App/Network
 License:    Flora-1.1
 Source0:    %{name}-%{version}.tar.gz
 
-%if 0
+%if "%{?profile}" == "mobile"
 BuildRequires:  pkgconfig(ui-gadget-1)
 BuildRequires:  pkgconfig(notification)
 BuildRequires:  pkgconfig(capi-content-mime-type)
@@ -25,7 +27,7 @@ BuildRequires:  pkgconfig(sqlite3)
 BuildRequires:  pkgconfig(notification)
 %endif
 
-%if 1
+%if "%{?profile}" == "wearable"
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(pkgmgr-info)
 BuildRequires:  pkgconfig(syspopup)
@@ -51,10 +53,10 @@ NFC Setting UI
 
 %build
 cmake . -DCMAKE_INSTALL_PREFIX=%{PREFIX} \
-%if 0
+%if "%{?profile}" == "mobile"
 	-DTIZEN_MOBILE=1
 %endif
-%if 1
+%if "%{?profile}" == "wearable"
 	-DTIZEN_WEARABLE=1
 %endif
 
