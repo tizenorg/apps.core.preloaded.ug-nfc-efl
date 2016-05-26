@@ -1,0 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "取消"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "删除？"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "连接中..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "无"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "添加"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "蓝牙"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "电子邮件"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "帮助"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "备忘录"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "信息"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "开"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "否"
+
+msgid "IDS_COM_SK_OK"
+msgstr "确定"
+
+msgid "IDS_COM_SK_YES"
+msgstr "是"
+
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "新备忘录"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "标签"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "写入至标签"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "前几天"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "文件"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "上网书签"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "书签"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "星期日"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "编写"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "今天"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "昨天"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "关闭"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "出错"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "发送中…"
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "联系人"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "4月"
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "8月"
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "12月"
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "删除"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "2月"
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "星期五"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "1月"
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "7月"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "6月"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "3月"
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "5月"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "星期一"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "11月"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "10月"
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "星期六"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "9月"
+
+msgid "IDS_COM_BODY_THU"
+msgstr "星期四"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "星期二"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "未知"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "星期三"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "打开"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d 已选择"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "打开浏览器？"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "媒体播放器"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "网址"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "无标签"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "无书签"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "无法找到应用程序以执行该操作"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "服务不可用。NFC 已关闭。是否开启 NFC？"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "读取 NFC 标签"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "通过 NFC 共享"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "轻轻地将手机触碰在一起以共享。"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "已选择%s"
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "写入标签失败"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "激活失败"
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "空白标签。"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "数据已写入至标签。"
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "不支持的标签类型。"
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "轻敲以发送。"
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "无法创建标签。数据太大。"
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "无法创建。已锁定标签。"
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "接收中..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "内存不足。删除一些项目并重试。"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "安全政策限制 %s 的使用。"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "已分享"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "无法共享。"
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "未选择文件。选择文件以发送并重试。"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "当NFC开启时，您可在您的设备接触其他支持 NFC 的设备或 NFC 标签时发送或接收数据。"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "选择标记"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "按钮"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "复选框"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "勾选"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "取消勾选"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "多标签写入"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "新建备忘录标签"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "创建标签"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d 更多"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "标签内容"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "选择备忘录 (仅文本)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "添加读取/写入标签后，您的记录将显示于此。"
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. 打开 %s 设置。"
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "选择标签"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "轻敲指示的区域。"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "教程完成"
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "在您的设备接触另一设备时交换数据"
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beam 已打开。您可更改您的 S Beam 设置。"
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC 已开启。可变更您的 NFC 设定。"
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "选择连接分页。"
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "选择 %s NFC。"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "切换按钮以开启 NFC。"
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "选择 %s S Beam。"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "切换按钮以开启 S Beam。"
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC 已开启。"
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam 已开启。"
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "当此功能启用时，您可通过 NFC 在主屏幕上发送预定项目。"
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "当 S Beam 开启，且设备靠近其他 NFC 和 Wi-Fi 直连设备时，您可发送或接收文件。  例如，您可通过将设备背靠背放置在一起并点击您的屏幕以传输来自图库的图片/视频文件。"
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "存储空间不足。请删除部分项目。"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "共享"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "透过 S Beam 共享档案将停用屏幕共享。在 %d 秒内轻触确定以继续。"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "打开 NFC"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "打开 S Beam"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "智能海报"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "创建标签"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "选择内容类型之一以写入至您的标签。在您已将数据写入至标签后，请用您的设备触摸标签以查看该数据。"
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "保存"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "取消"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "存档"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "已添加至存档"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "已从存档移除"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "添加至存档"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "从存档移除"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "在主屏幕中使用 NFC"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "无已存档的标签"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "添加标签至存档后，其将显示于此。"
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "创建标签"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "标签记录"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "联系人"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "备忘录"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "上网书签"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "若要保存标签，请用设备的背面完全盖住标签并保持不动几秒钟"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "若要保存数据，请用设备的背面完全盖住标签并保持不动几秒钟"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "若要保存备忘录，请用设备的背面完全盖住标签并保持不动几秒钟"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "若要保存网址，请用设备的背面完全盖住标签并保持不动几秒钟"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "不再显示"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "创建标签失败。无法找到您尝试保存的姓名或电话号码。"
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "仅联系人的姓名和电话号码可保存至该标签"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "选中此选项时，多个标签将被同时写入"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "NFC 标签简介"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "关于 NFC 标签"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC 标签是嵌入在小卡内的微型微芯片。其可包含文本、网址和其他类型信息。"
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "读取 NFC 标签"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "若要读取 NFC 标签，请用设备的背面完全盖住标签并保持不动几秒钟。标签的信息将保存至标签应用程序。"
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFC 安全存储"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFC 安全存储"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "手动"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "自动"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "使用您的 SIM 卡作为安全存储。"
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "在使用您的 SIM 卡与设备上安全存储之间自动切换。"
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "选择手动将禁用某些将数据存储在设备上安全存储的安全功能，如 NFC 支付。"
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "不支持标签类型"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "标签简介"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "检测到一个电子邮件地址。是否写邮件？"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "检测到一个网址。是否打开？"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "标签应用程序帮助您整理和共享近场通信 (NFC) 标签。您可通过解锁您的设备并将其紧靠标签来扫描标签。NFC 标签可包含文本、网址及其他类型的信息。\n\n若要扫描或共享标签，可通过进入设定 > 连接打开 NFC。"
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "不支持 NFC 服务。"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "通过 S Beam 共享文件将禁用移动 Wi-Fi 热点。在 %d 秒内轻触确定以继续。"
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "创建 NFC 标签"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "使用标签应用程序中的创建标签菜单选项创建标签。选择您要保存的数据，然后用设备的背面完全盖住标签并保持不动几秒钟。"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "无法传送分享"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "开启 NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d 已选择"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "写入联系人至标签"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "删除标签"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "无法接收文件"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "是否删除该标签？"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "是否删除 %d 个标签？"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "存储器"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "文件现在可以通过 S Beam 共享。分开设备。"
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "正在准备共享文件...\n请确保设备仍于连接状态。"
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "文件已发送"
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "文件已发送。"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "发送文件失败"
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "发送文件失败。"
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "文件已接收"
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "文件已接收。"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "接收文件失败。"
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "接收文件失败。"
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "已超过可同时无线传输的最大文件数量 (%d)。若要共享这些文件，请使用 Wi-Fi 直连或蓝牙。"
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "打开 NFC 失败"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "无法读取标签"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "无法创建标签"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "选择标签类型"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "与 %s 配对失败"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "连接至 %s 失败"
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "打开 NFC 时发生错误。请重试。"
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "无数据写入至该标签。"
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "写入信息至标签时发生错误。请重试。"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "标签应用程序帮助您整理和共享近场通信 (NFC) 标签。您可通过解锁设备并将其紧靠标签来扫描标签。NFC 标签可包含文本、网址、联系人信息、备忘录、图片、视频等。\n\n若要扫描或共享标签，请通过进入设定 > 连接打开 NFC。"
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "当您的设备触碰其他设备或标签的背面时，可以在设备之间或在标签和设备之间传输文本、图片、视频、网址和联系人信息等数据。"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC 标签是嵌入在小卡内的微型微芯片。可包含文本、网址、联系人信息、备忘录、图片、视频等。"
+

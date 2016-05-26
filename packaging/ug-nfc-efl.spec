@@ -10,6 +10,10 @@
 ExcludeArch: %{arm} %ix86 x86_64
 %endif
 
+%if "%{?profile}" == "common"
+%global PREFIX /usr/ug
+%endif
+
 Name:       ug-nfc-efl
 Summary:    NFC Setting UI
 Version:    3.1.0
@@ -31,6 +35,15 @@ BuildRequires:  pkgconfig(notification)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(pkgmgr-info)
 BuildRequires:  pkgconfig(syspopup)
+%endif
+
+%if "%{?profile}" == "common"
+BuildRequires:  pkgconfig(ui-gadget-1)
+BuildRequires:  pkgconfig(notification)
+BuildRequires:  pkgconfig(capi-content-mime-type)
+BuildRequires:  pkgconfig(capi-appfw-app-manager)
+BuildRequires:  pkgconfig(sqlite3)
+BuildRequires:  pkgconfig(notification)
 %endif
 
 BuildRequires:  pkgconfig(capi-network-nfc)
@@ -58,6 +71,9 @@ cmake . -DCMAKE_INSTALL_PREFIX=%{PREFIX} \
 %endif
 %if "%{?profile}" == "wearable"
 	-DTIZEN_WEARABLE=1
+%endif
+%if "%{?profile}" == "common"
+	-DTIZEN_COMMON=1
 %endif
 
 make %{?jobs:-j%jobs}

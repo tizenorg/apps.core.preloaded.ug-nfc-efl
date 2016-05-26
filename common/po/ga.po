@@ -1,0 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Scrios?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Ag nascadh..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Dada"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Cuir leis"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "R-phost"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Cuidiú"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Meabhrán"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Teachtaireacht"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Air"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ná déan é"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Déan é"
+
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Meabhrán nua"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Clibeanna"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Scríobh chuig clib"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Laethanta roimhe"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Comhad"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Leabharmharc"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Leabharmharcanna"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Domh"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Cum"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Inniu"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Inné"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Dún"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Earráid."
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Ag seoladh..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Teagmhálaí"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Aib."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Lún."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Nol."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Scrios"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Feab"
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Aoin"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Ean."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Iúil"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Meit"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Már."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Bealtaine"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Luan"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Samh"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "D.F."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "Sath"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "M.F."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Déar"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Már"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Anaithnid"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Céad"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Oscail"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d roghnaithe"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Oscail brabhsálaí?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Seinnteoir meán"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Níl clibeanna ann"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Níl leabharmharcanna ann"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Ní féidir feidhmchlár a aimsiú leis an ngníomh seo a dhéanamh."
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Níl seirbhís ar fáil. Tá NFC casta as. Cas NFC air?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Léigh clib NFC"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Comhroinn le NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Déan na fóin a thadhall le chéile go bog le comhroinnt"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s roghnaithe."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Theip ar scríobh chuig an gclib."
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Theip ar chur i ngníomh."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Clib bhán."
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Sonraí scríofa chuig an gclib."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Cineál clibe gan tacú."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Tapáil le seoladh"
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Ní féidir clib a chruthú. Sonraí ró-mhór."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Ní féidir cruthú. Clib glasáilte."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Ag fáil..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Easpa cuimhne. Scrios roinnt míreanna agus triail arís."
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Cuireann an polasaí slándála srian ar %s a úsáid"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Comhroinnte"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Ní féidir comhroinnt."
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Níor roghnaíodh comhad. Roghnaigh comhad le seoladh agus triail arís."
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Agus NFC casta air, is féidir leat sonraí a sheoladh nó a fháil nuair a thadhlaíonn do ghléas gléasanna eile NFC cumasaithe nó clibeanna NFC."
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Roghnaigh clib"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Cnaipe"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Ticbhosca"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Cuir tic"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Bain tic"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Scríobh chuig ilchlibeanna"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Cruthaigh clib meabhráin"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Déan clib"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d eile"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Cuir clib leis an inneachar"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Roghn. meabhrán (téacs amháin)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Tar éis duit clibeanna a léamh/a scríobh, taispeánfar do loga clibeanna anseo"
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Oscail Socruithe %s."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Roghnaigh clibeanna"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Tapáil ar an limistéar a léirítear."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Ceacht teagaisc curtha i gcrích."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Malartaigh sonraí ar thadhall do do ghléas le gléas eile."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "Tá S Beam casta air cheana. Is féidir leat do shocruithe S Beam a athrú."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "Tá NFC ar siúl cheana. Is féidir do shocruithe NFC a athrú."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Roghnaigh an táb Naisc."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Roghnaigh NFC %s."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Scoránaigh an cnaipe le NFC a chasadh air."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Roghnaigh S Beam %s."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Scoránaigh an cnaipe le S Beam a chasadh air."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC casta air."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam casta air."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Nuair atá an ghné seo cumasaithe, is féidir leat míreanna réamhshainithe a sheoladh trí NFC agus tú ar an scáileán baile"
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Agus S Beam casta air, is féidir leat comhaid a sheoladh nó a fháil agus do ghléas i ngar do ghléasanna eile NFC agus Wi-Fi Direct. Mar shampla, is féidir leat comhaid íomhá/físe ón nGailearaí a léaschóipeáil trí na gléasanna a chur cúl le cúl agus do scáileán a thapáil."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Easpa cuimhne. Scrios roinnt míreanna."
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Comhroinn"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Díchumasófar Screen Mirroring má chomhroinntear comhaid trí S Beam. Tapáil OK laistigh de %d soicind le leanúint leis."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFC a chasadh air"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S Beam a chasadh air"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Cruthaigh clib"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Roghnaigh ceann de na cineálacha inneachair le scríobh chuig do chlib. Tar éis duit sonraí a scríobh chuig an gclib, tadhaill an clib le do ghléas le hamharc ar na sonraí sin"
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Sábhl."
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Cartlann"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Curtha le cartlann."
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Bainte ón gcartlann."
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Cuir le cartlann"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Bain ón gcartlann"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Úsáid NFC sa bhaile"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Níl clibeanna sa chartlann"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Tar éis duit clibeanna a chur le do chartlann, taispeánfar anseo iad."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Cruthaigh clib"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Loga clibeanna"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Teagmhálaí"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Meabhrán"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Leabharmharc"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Le teagmhálaí a shábháil, clúdaigh an chlib go hiomlán le cúl an ghléis agus coinnigh ar feadh roinnt soicindí"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Le sonraí a shábháil, clúdaigh an chlib go hiomlán le cúl an ghléis agus coinnigh ar feadh roinnt soicindí"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Le meabhrán a shábháil, clúdaigh an chlib go hiomlán le cúl an ghléis agus coinnigh ar feadh roinnt soicindí"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Le URL a shábháil, clúdaigh an chlib go hiomlán le cúl an ghléis agus coinnigh ar feadh roinnt soicindí"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Ná taispeáin arís"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Theip ar chruthú na clibe. Ní féidir an t-ainm nó an uimhir fhóin atá tú ag iarraidh a shábháil a aimsiú."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Ní féidir ach ainm agus uimhir fhóin an teagmhálaí amháin a shábháil chuig an gclib seo"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Nuair a chuirtear tic leis an rogha seo, scríobhtar roinnt clibeanna ag an am céanna"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "Tús eolais ar chlibeanna NFC"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "Eolas faoi chlibeanna NFC"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "Mion-mhicrishliseanna atá leabaithe i gcártaí beaga is iad clibeanna NFC. Is féidir téacs, URL, agus cineálacha eile faisnéise a bheith iontu."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "Clibeanna NFC a léamh"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "Le clib NFC a léamh, clúdaigh an chlib go hiomlán le cúl an ghléis agus coinnigh ar feadh roinnt soicindí. Sábhálfar faisnéis ón gclib chuig an bhfeidhmchlár Clibeanna."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "Stóras slán NFC"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "Stóras slán NFC"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "De láimh"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Uathoibríoch"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Úsáid do chárta SIM le haghaidh stóras slán"
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Aistrigh go huathoibríoch idir do chárta SIM agus an stóras slán ar an ngléas a úsáid"
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Má roghnaítear de láimh díchumasófar roinnt gnéithe slána, amhail íocaíocht NFC, a stórálann sonraí sa stóras slán ar an ngléas"
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Níl tacú ann don chineál sin comhaid."
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Tús eolais ar Chlibeanna"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Braitheadh seoladh r-phoist. Cum r-phost?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Braitheadh URL. Oscail?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Cabhraíonn an feidhmchlár Clibeanna leat clibeanna cumarsáide neas-réimse (NFC) a eagrú agus a chomhroinnt. Is féidir leat clib a scanadh trí do ghléas a dhíghlasáil agus é a chur in aice le clib. Is féidir téacs, URL agus cineálacha faisnéise eile a bheith i gclibeanna NFC.\n\nLe clibeanna a scanadh nó a chomhroinnt, cas NFC air trí ghabháil chuig Socruithe > Nasc."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "Níl tacú ann do sheirbhís NFC."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Díchumasófar an ball te Wi-Fi inaistrithe má chomhroinntear comhaid trí S Beam. Tapáil OK laistigh de %d soicind le leanúint leis."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "Clibeanna NFC a chruthú"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Cruthaigh clib leis an rogha Cruthaigh clib sa roghchlár san fheidhmchlár Clibeanna. Roghnaigh na sonraí is mian leat a shábháil, ansin clúdaigh an chlib go hiomlán le cúl an ghléis agus coinnigh ar feadh roinnt soicindí."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Léaschóipeáil dodhéanta"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Cas air NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d roghnaithe"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Scríobh teagmhálaí chuig clib"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Scrios clib"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Ní féidir an comhad a fháil"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Scrios an chlib seo?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Scrios %d clib?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Stóras"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Is féidir comhaid a chomhroinnt anois trí S Beam. Scar na gléasanna."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Comhaid á n-ullmhú lena gcomhroinnt...\nCinntigh go bhfuil na gléasanna i dtadhall."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Comhaid seolta."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Comhaid seolta."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Theip ar sheoladh comhad."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Theip ar sheoladh comhad."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Comhaid faighte."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Comhaid faighte."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Theip ar fháil na gcomhad."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Theip ar fháil comhad."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Sháraigh tú uaslíon na gcomhad is féidir a léaschóipeáil ag an am céanna (%d). Chun na comhaid seo a chomhroinnt, úsáid Wi-Fi Direct nó Bluetooth."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "Theip ar chasadh NFC air"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Ní féidir an chlib a léamh"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Ní féidir clib a chruthú"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Roghnaigh cineál clibe"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Theip ar phéireáil le %s."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Theip ar nascadh le %s."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "Tharla earráid agus NFC á chasadh air. Triail arís é."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Níor scríobhadh aon sonraí chuig an gclib seo."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Tharla earráid agus an fhaisnéis á scríobh chuig an gclib. Triail arís é."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Cabhraíonn an feidhmchlár Clibeanna leat clibeanna cumarsáide gar-réimse (NFC) a eagrú agus a chomhroinnt. Is féidir leat clib a scanadh ach do ghléas a dhíghlasáil agus a chur in aice le clib. Is féidir go bhfuil téacs, seoltaí gréasáin, sonraí teagmhála, meabhráin, pictiúir, físeáin, agus tuilleadh istigh i gclibeanna NFC.\n\nLe clibeanna a scanadh nó a chomhroinnt, cas air NFC faoi Shocruithe > Nasc."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Ar thadhall do do ghléas le cúl gléis eile nó le clib, is féidir sonraí amhail téacs, pictiúir, físeáin, seoltaí gréasáin, agus sonraí teagmhála a aistriú idir na gléasanna, nó idir an chlib agus an gléas."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "Micrishliseanna an-bheag  atá leabaithe i gcártaí beaga is iad clibeanna NFC. Is féidir go bhfuil téacs, seoltaí gréasáin, sonraí teagmhála, meabhráin, pictiúir, físeáin, agus tuilleadh istigh iontu."
+
