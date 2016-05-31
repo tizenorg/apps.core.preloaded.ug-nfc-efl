@@ -20,6 +20,7 @@
 
 #include <app.h>
 #include <nfc.h>
+#include <nfc_internal.h>
 #include <vconf.h>
 #include <pkgmgr-info.h>
 #include "nsa-view.h"
@@ -206,10 +207,10 @@ static bool __registered_handler_cb(const char *handler, int count,
 static void __get_wallet_info(void)
 {
 	NSA_DEBUG("__get_wallet_info");
-/*
+
 	nfc_se_foreach_registered_handlers(NFC_CARD_EMULATION_CATEGORY_PAYMENT,
 		__registered_handler_cb, (void *)T_PAYMENT);
-*/
+
 	/* To Do */
 #if 0
 	nfc_se_foreach_registered_handlers(NFC_CARD_EMULATION_CATEGORY_OTHER,
