@@ -4,15 +4,15 @@
 #define TITLE_TEXT_SIZE_H 39
 #define TITLE_FONT_SIZE 39
 #define HELP_TEXT_SIZE_W 232
-#define HELP_TEXT_SIZE_H 42
-#define HELP_FONT_SIZE 42
+#define HELP_TEXT_SIZE_H 30
+#define HELP_FONT_SIZE 30
 #define LR_PADDING_SIZE 33
 #define DESC_LR_PADDING_SIZE 64
 #define IMAGE_SIZE_W 294
 #define IMAGE_SIZE_H 122
-#define IMAGE_PADDING_H 5
+#define IMAGE_PADDING_H 20
 #define TITLE_LR_PADDING_SIZE 67
-#define TITLE_TOP_PADDING_SIZE 60
+#define TITLE_TOP_PADDING_SIZE 30
 #define TITLE_BOTTOM_PADDING_SIZE 7
 
 #define STYLE_TAG_MATCH \
@@ -262,7 +262,7 @@ collections {
 						to_x: "desc_right_padding";
 						to_y: "bg";
 						relative: 0.0 1.0;
-						offset: 0 -41;
+						offset: 0 760;
 					}
 					align: 0.5 0.0;
 					color_class: "AT017";
