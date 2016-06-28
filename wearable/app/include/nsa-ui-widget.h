@@ -30,13 +30,11 @@ extern "C"
 #endif /* __cplusplus */
 
 /************************** API **************************/
+Evas_Object* nsa_create_main_win(const char *name);
 Evas_Object *nsa_create_main_layout(Evas_Object *parent);
-Evas_Object *nsa_create_theme_layout(Evas_Object *parent,
-	const char *clas, const char *group, const char *style);
 Evas_Object *nsa_create_bg(Evas_Object *parent);
 Evas_Object* nsa_create_conformant(Evas_Object *parent);
-Evas_Object* nsa_create_edj_layout(Evas_Object* parent,
-	char *edc_path);
+Evas_Object* nsa_create_edj_layout(Evas_Object* parent, char *edc_path);
 
 #ifdef __cplusplus
 }

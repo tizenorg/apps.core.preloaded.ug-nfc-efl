@@ -43,42 +43,36 @@ extern "C"
 #define TABLE_PATH	TABLEDIR
 #define EDJ_FILE	EDJDIR"/"APPNAME".edj"
 
-typedef enum {
-	NSA_ERROR = -1,
-	NSA_OK = 0
-} nsa_result_e;
-
-typedef enum {
-	NSA_OP_NONE = -1,
-	NSA_OP_NFC = 0,
-	NSA_OP_NFC_HELP = 1,
-	NSA_OP_SBEAM = 2,
-	NSA_OP_SBEAM_HELP = 3,
-	NSA_OP_TAP_N_PAY = 4
-} nsa_operation_type;
-
-struct appdata {
-	Evas_Object *win_main;
-	Evas_Object *ly_main;
-	Evas_Object *bg;
-	Evas_Object *conform;
-	Eext_Circle_Surface *circle_surface;
-	Evas_Object *navi_frame;
-	Evas_Object *popup;
-	Elm_Object_Item *base_navi_it;
-	GArray *circle_obj_list;
-	int circle_obj_list_idx;
-
-	nsa_operation_type op_type;
-
-	/* changeable UI */
-	Eina_List *color_table;
-	Eina_List *font_table;
-
-	app_control_h caller_appctrl;
+enum {
+	V_MAIN = 0,
+	V_TAP_N_PAY
 };
 
-inline Evas_Object *nsa_get_main_window(void);
+typedef struct {
+	char *appid;
+	int aid_count;
+} wallet_info_t;
+
+typedef struct {
+	Evas_Object *main_win;
+	Evas_Object *main_layout;
+	Evas_Object *main_bg;
+	Evas_Object *conform;
+	Eext_Circle_Surface *circle_surface;
+
+	Evas_Object *popup;
+	Evas_Object *navi_frame;
+	int current_view;
+
+	char *payment_handler;
+	Elm_Object_Item *on_off;
+	Elm_Object_Item *tap_n_pay;
+	Evas_Object *main_genlist;
+
+	int payment_wallet_cnt;
+	GArray *payment_wallet_list;
+	Evas_Object *radio_main;
+} appdata;
 
 #ifdef __cplusplus
 }

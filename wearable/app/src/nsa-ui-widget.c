@@ -24,6 +24,35 @@
 #include "nsa-debug.h"
 #include "nsa-util.h"
 
+static void __win_del(void *data, Evas_Object *obj, void *event)
+{
+	elm_exit();
+}
+
+Evas_Object* nsa_create_main_win(const char *name)
+{
+	Evas_Object *eo;
+	int w, h;
+
+	retv_if(name == NULL, NULL);
+
+	NSA_BEGIN();
+
+	eo = elm_win_add(NULL, name, ELM_WIN_BASIC);
+	retv_if(eo == NULL, NULL);
+
+	if (eo) {
+		elm_win_title_set(eo, name);
+		evas_object_smart_callback_add(eo, "delete,request", __win_del, NULL);
+		elm_win_screen_size_get(eo, NULL, NULL, &w, &h);
+		evas_object_resize(eo, w, h);
+	}
+
+	evas_object_show(eo);
+
+	NSA_END();
+	return eo;
+}
 
 Evas_Object *nsa_create_main_layout(Evas_Object *parent)
 {
@@ -43,29 +72,8 @@ Evas_Object *nsa_create_main_layout(Evas_Object *parent)
 
 	evas_object_show(layout);
 
-	NSA_END();
-
-	return layout;
-}
-
-Evas_Object *nsa_create_theme_layout(Evas_Object *parent,
-	const char *clas, const char *group, const char *style)
-{
-	Evas_Object *layout;
-
-	retv_if(parent == NULL, NULL);
-
-	NSA_BEGIN();
-
-	layout = elm_layout_add(parent);
-	retv_if(layout == NULL, NULL);
-
-	elm_object_focus_set(layout, EINA_FALSE);
-	elm_layout_theme_set(layout, clas, group, style);
-	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND,
-		EVAS_HINT_EXPAND);
-
-	evas_object_show(layout);
+	elm_object_content_set(parent, layout);
+	elm_win_conformant_set(layout, EINA_TRUE);
 
 	NSA_END();
 
@@ -75,29 +83,12 @@ Evas_Object *nsa_create_theme_layout(Evas_Object *parent,
 Evas_Object *nsa_create_bg(Evas_Object *parent)
 {
 	Evas_Object *bg;
-#if defined(PROCESS_POOL)
-	Evas_Object *win;
-#endif
-
 	retv_if(parent == NULL, NULL);
 
 	NSA_BEGIN();
 
-#if defined(PROCESS_POOL)
-	win = (Evas_Object *)app_get_preinitialized_window(PACKAGE);
-	if (win == parent) {
-		bg = app_get_preinitialized_background();
-		if (bg == NULL) {
-			NSA_DEBUG_ERR("get bg fail");
-			bg = elm_bg_add(parent);
-		}
-	} else {
-		NSA_DEBUG_ERR("win is different");
-		bg = elm_bg_add(parent);
-	}
-#else
 	bg = elm_bg_add(parent);
-#endif
+
 	retv_if(bg == NULL, NULL);
 
 	evas_object_size_hint_weight_set(bg, EVAS_HINT_EXPAND,
@@ -114,29 +105,13 @@ Evas_Object *nsa_create_bg(Evas_Object *parent)
 Evas_Object *nsa_create_conformant(Evas_Object *parent)
 {
 	Evas_Object *conform;
-#if defined(PROCESS_POOL)
-	Evas_Object *win;
-#endif
 
 	retv_if(parent == NULL, NULL);
 
 	NSA_BEGIN();
 
-#if defined(PROCESS_POOL)
-	win = (Evas_Object *)app_get_preinitialized_window(PACKAGE);
-	if (win == parent) {
-		conform = (Evas_Object *)app_get_preinitialized_conformant();
-		if (conform == NULL) {
-			NSA_DEBUG_ERR("get conform fail");
-			conform = elm_conformant_add(parent);
-		}
-	} else {
-		NSA_DEBUG_ERR("win is different");
-		conform = elm_conformant_add(parent);
-	}
-#else
 	conform = elm_conformant_add(parent);
-#endif
+
 	retv_if(conform == NULL, NULL);
 
 	evas_object_size_hint_weight_set(conform, EVAS_HINT_EXPAND,

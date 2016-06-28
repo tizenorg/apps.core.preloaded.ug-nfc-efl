@@ -31,11 +31,8 @@ extern "C"
 {
 #endif /* __cplusplus */
 
-int _nsa_view_main_create(void *data);
-void _nsa_view_main_destroy(void *data);
-
-int _nsa_view_tap_n_pay_create(void *data);
-void _nsa_view_tap_n_pay_destroy(void *data);
+bool _nsa_view_main_create(void *data);
+bool _nsa_view_tap_n_pay_create(void *data);
 
 #ifdef __cplusplus
 }

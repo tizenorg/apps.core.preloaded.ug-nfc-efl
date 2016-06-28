@@ -16,7 +16,7 @@ ExcludeArch: %{arm} %ix86 x86_64
 
 Name:       ug-nfc-efl
 Summary:    NFC Setting UI
-Version:    3.1.0
+Version:    3.1.1
 Release:    0
 Group:      App/Network
 License:    Flora-1.1
