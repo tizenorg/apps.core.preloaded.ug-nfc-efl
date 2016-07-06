@@ -27,7 +27,7 @@
 #include "nsa-ui-widget.h"
 #include "nsa-popup.h"
 
-static Eina_Bool __back_clicked_cb(void *data, Evas *evas, Evas_Object *obj, void *event_info)
+static void __back_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
 	appdata *ad = data;
 	NSA_DEBUG_ERR("back click cb : view depth is %d", ad->current_view);
@@ -67,8 +67,6 @@ static Eina_Bool __back_clicked_cb(void *data, Evas *evas, Evas_Object *obj, voi
 
 		ui_app_exit();
 	}
-
-	return EINA_FALSE;
 }
 
 bool _nsa_main_app_create(void *user_data)

@@ -287,7 +287,6 @@ static void __payment_handler_vconf_key_changed (keynode_t *key,
 bool _nsa_view_main_create(void *data)
 {
 	appdata *ad = data;
-	Evas_Object *genlist;
 	retv_if(ad == NULL, false);
 
 	/* Draw UI */
