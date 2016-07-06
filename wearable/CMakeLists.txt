@@ -29,7 +29,7 @@ ADD_DEFINITIONS("-DNSA_LOG_LEVEL_2")
 #--------------------------------
 
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror-implicit-function-declaration")
-SET(CMAKE_C_FLAGS_DEBUG "-O0 -g")
+SET(CMAKE_C_FLAGS_DEBUG "-O2 -g")
 SET(CMAKE_C_FLAGS_RELEASE "-O2")
 
 INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/org.tizen.nfc-setting-app.xml DESTINATION /usr/share/packages/)
