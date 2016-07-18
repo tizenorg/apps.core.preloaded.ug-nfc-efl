@@ -83,34 +83,6 @@ bool _nsa_main_app_create(void *user_data)
 	if (nfc_manager_initialize() != NFC_ERROR_NONE)
 		NSA_DEBUG_ERR("nfc_manager_initialize failed");
 
-	/* create window */
-	ad->main_win = nsa_create_main_win(APPNAME);
-	retv_if(ad->main_win == NULL, false);
-
-	/* create conformant */
-	ad->conform = nsa_create_conformant(ad->main_win);
-	retv_if(ad->conform == NULL, false);
-
-	/* create circle surface */
-	ad->circle_surface = eext_circle_surface_conformant_add(ad->conform);
-	retv_if(ad->circle_surface == NULL, false);
-
-	/* create bg */
-	ad->main_bg = nsa_create_bg(ad->conform);
-	retv_if(ad->main_bg == NULL, false);
-
-	/* create base layout */
-	ad->main_layout = nsa_create_main_layout(ad->conform);
-	retv_if(ad->main_layout == NULL, false);
-
-	/* create naviframe */
-	ad->navi_frame = elm_naviframe_add(ad->main_layout);
-	retv_if(ad->navi_frame == NULL, false);
-
-	elm_object_part_content_set(ad->main_layout, "elm.swallow.content", ad->navi_frame);
-	evas_object_show(ad->navi_frame);
-	eext_object_event_callback_add(ad->navi_frame, EEXT_CALLBACK_BACK, __back_clicked_cb, ad);
-
 	NSA_DEBUG("_nsa_main_app_create end");
 
 	return true;
@@ -137,6 +109,33 @@ void _nsa_main_app_service(app_control_h service, void *user_data)
 	NSA_DEBUG("_nsa_main_app_service start");
 
 	ret_if(ad == NULL);
+
+	/* create window */
+	ad->main_win = nsa_create_main_win(APPNAME);
+	retv_if(ad->main_win == NULL, false);
+
+	/* create conformant */
+	ad->conform = nsa_create_conformant(ad->main_win);
+	retv_if(ad->conform == NULL, false);
+
+	/* create circle surface */
+	ad->circle_surface = eext_circle_surface_conformant_add(ad->conform);
+	retv_if(ad->circle_surface == NULL, false);
+
+	/* create bg */
+	ad->main_bg = nsa_create_bg(ad->conform);
+	retv_if(ad->main_bg == NULL, false);
+
+	/* create base layout */
+	ad->main_layout = nsa_create_main_layout(ad->conform);
+	retv_if(ad->main_layout == NULL, false);
+
+	/* create naviframe */
+	ad->navi_frame = elm_naviframe_add(ad->main_layout);
+	retv_if(ad->navi_frame == NULL, false);
+
+	elm_object_part_content_set(ad->main_layout, "elm.swallow.content", ad->navi_frame);
+	eext_object_event_callback_add(ad->navi_frame, EEXT_CALLBACK_BACK, __back_clicked_cb, ad);
 
 	_nsa_view_main_create(ad);
 	elm_win_activate(ad->main_win);
