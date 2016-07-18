@@ -48,8 +48,7 @@ Evas_Object* nsa_create_main_win(const char *name)
 		evas_object_resize(eo, w, h);
 	}
 
-	/* prevent the black screen flashing * /
-	/* evas_object_show(eo); */
+	evas_object_show(eo);
 
 	NSA_END();
 	return eo;
